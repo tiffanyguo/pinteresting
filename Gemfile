@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'         
 gem 'spring', 
-gem 'bootstrap-sass' 
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3' 
 
 group :development, :test do
 	gem 'sqlite3'
